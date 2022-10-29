@@ -28,6 +28,7 @@ c<sub>1</sub>k<sup>2</sup> <= c<sub>2</sub>klgk
 k <= (c<sub>2</sub>/c<sub>1</sub>)lgk  
 Now we can check manually by putting different values of k.
 
+LJ: don't understand question d (2022.10.29)
 
 
 ### Problems 2 : Correctness of bubblesort

@@ -72,11 +72,11 @@ Naive-Poly-Eval:
 
 **Initialization:** 一开始没有项，y = 0 
 
-**Maintenance:**根据循环不变式，第i次迭代结束有
+**Maintenance:** 根据循环不变式，第i次迭代结束有
 
 ![](http://latex.codecogs.com/gif.latex?y=a_i+x\\sum_{k=0}^{n-\(i+1\)}a_{k+i+1}x^k=a_ix^0+\\sum_{k=0}^{n-i-1}a_{k+i+1}x^{k+1}=\\sum_{k=-1}^{n-i-1}a_{k+i+1}x^{k+1}=\\sum_{k=0}^{n-i}a_{k+i}x^k)
 
-**Termination:**循环结束时 i = -1, 将i = 0代入
+**Termination:** 循环结束时 i = -1, 将i = 0代入
 ![](http://latex.codecogs.com/gif.latex?y=sum_{k=0}^{n}a_{k}x^k)
 
 **d.**
@@ -106,6 +106,8 @@ elements in Θ(n lg n) worst-case time. (Hint: Modify merge sort.)
 Number of inversions = Number of ways to choose two distinct element from the above set = n(n-1)/2.  
 
 **c.** we know that the inner while loop of insertion sort shift the elements to left to their right position. So if there is more inversion in an array, then we need to shift more elements. Hence as the number of inversions increases, running time of insertion sort increases.
+
+LJ: Are they exactly equal?
 
 **d.**
 
